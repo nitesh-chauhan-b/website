@@ -1,0 +1,73 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 50px;
+	color: #333;
+}
+
+.countdown {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 50px;
+}
+
+.countdown h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+#countdown-timer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#countdown-timer div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 50px;
+}
+
+#countdown-timer div:last-child {
+	margin-right: 0;
+}
+
+#countdown-timer span {
+	font-size: 48px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+#countdown-timer .smalltext {
+	font-size: 16px;
+	color: #666;
+}
+
+.register {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 50px;
+}
+
+.register h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+form
